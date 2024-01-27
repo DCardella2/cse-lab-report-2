@@ -12,13 +12,13 @@ These are the changes I made to the handleRequest method within ChatServer.java
 
 ![chat-server-msg-1](chat-server-msg-1.png)
 
-When the user adds a chat message, the handleRequest method is called with the user-given URL as an argument. The method parses the URL to find a username and a message. Then, the messages field within the Handler class is updated to contain the username and message information.
+When the user adds a chat message, the `handleRequest` method is called with the user-given URL as an argument. The method parses the URL to find a username and a message. Then, the messages field within the `Handler` class is updated to contain the username and message information.
 
 ### Adding a New Message
 
 ![chat-server-msg-2](chat-server-msg-2.png)
 
-When a user adds another chat message, the handleRequest method is called again. Once again, the URL is passed to the handleRequest method and parsed to find the username and message information. Now, the messages field is updated to add the new username and message information, while keeping all previous messages. 
+When a user adds another chat message, the `handleRequest` method is called again. Once again, the URL is passed to the `handleRequest` method and parsed to find the username and message information. Now, the messages field is updated to add the new username and message information, while keeping all previous messages. 
 
 ## Part 2: SSH Public and Private Keys
 
@@ -50,4 +50,4 @@ Since we have the public and private keys in the correct locations, we can now r
 
 ## Part 3: Things I Learned
 
-I learned that it's possbile to set up a remote server in a way that allows you to ssh into it without having to enter a password. 
+I learned that it's possbile to set up a remote server in a way that allows you to `ssh` into it without having to enter a password. 
