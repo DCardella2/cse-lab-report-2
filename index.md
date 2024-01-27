@@ -6,7 +6,7 @@
 
 ![chat-server-code](chat-server-code.png)
 
-These are the changes I made to the handleRequest method within `ChatServer.java`
+These are the changes I made to the `handleRequest` method within `ChatServer.java`
 
 ### Writing a Message
 
